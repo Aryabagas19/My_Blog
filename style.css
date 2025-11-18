@@ -1,0 +1,89 @@
+body {
+    background-color: #F7DBA7; 
+    color: #251605; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease; 
+}
+
+.navbar {
+    background-color: #C57857 !important; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    color: #F7DBA7 !important; 
+    font-weight: bold;
+}
+
+h1, h5 {
+    color: #251605; 
+}
+
+.card {
+    background-color: #9CAFB7; 
+    border: 1px solid #F1AB86; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+    background-color: #F1AB86; 
+    border-color: #F1AB86;
+    color: #251605;
+}
+
+.btn-primary:hover {
+    background-color: #C57857; 
+    border-color: #C57857;
+}
+
+.btn-warning {
+    background-color: #C57857; 
+    border-color: #C57857;
+}
+
+.btn-danger {
+    background-color: #251605; 
+    border-color: #251605;
+}
+
+.btn-secondary {
+    background-color: #9CAFB7; 
+    border-color: #9CAFB7;
+    color: #251605;
+}
+
+.form-control {
+    border: 1px solid #F1AB86; 
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #C57857; 
+    box-shadow: 0 0 0 0.2rem rgba(241, 171, 134, 0.25);
+}
+
+.text-muted {
+    color: #C57857 !important; 
+}
+
+.lead {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #251605;
+}
+
+.hero {
+    background: linear-gradient(to right, #C57857, #F1AB86);
+    color: #F7DBA7;
+    padding: 2rem 0;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 2rem;
+}
